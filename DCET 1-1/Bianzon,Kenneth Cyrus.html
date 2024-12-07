@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #c41b1b;
+      padding: 10px 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      width: 200px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li {
+      display: inline;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      padding-right: 50px;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 500px;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .hero_button {
+      height: auto;
+      width: auto;
+      border-radius: 40px;
+      background-color: orange;
+      font-family: Arial, sans-serif;
+      font-size: small;
+      text-align: center;
+      color: #ffffff;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background-color: #fff3e0;
+    }
+
+    .feature {
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .feature img {
+      width: 100%;
+      height: auto;
+      border-radius: 40px;
+    }
+
+    .feature h2 {
+      color: #d32f2f;
+    }
+
+    footer {
+      background-color: #ffcc00;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .socials img {
+      width: 30px;
+      height: 30px;
+      border-radius: 40px;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jollibee</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://queen.jollibee.com.ph/2024/10/jollibee-logo-2x.png"
+            alt="Jollibee Logo"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Promos</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <img
+          src="https://queen.jollibee.com.ph/2022/05/home_banner_2_mobile.png"
+          alt="Delicious Jollibee Food"
+        />
+        <div class="hero-text">
+          <h1>Bringing Joy to You</h1>
+          <p>Delicious food, Fun and Good Atmosphere</p>
+          <button class="hero_button"><h1>Order now!</h1></button>
+        </div>
+      </section>
+      <section class="features">
+        <div class="feature">
+          <img
+            src="https://queen.jollibee.com.ph/2024/10/JBPH-JOLLYWEEN-TREATS-DIGIPOST-4X5-min-819x1024.jpg"
+            alt="Feature 1"
+          />
+          <h2>Jollween Treats!</h2>
+          <p>Jolly Trick or Treats</p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://queen.jollibee.com.ph/2023/11/Website_JCBOS_350px-x-435px-min.webp"
+            alt="Feature 2"
+          />
+          <h2>Jolly Christmas</h2>
+          <p>Masaya ang Pasko Kung kasama mo sya :(</p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://queen.jollibee.com.ph/2022/11/Jollibee_JKP-Announcement-min.jpg"
+            alt="Feature 3"
+          />
+          <h2>Jollibe Party For kids</h2>
+          <p>Pra lng sa Mga PDF, Mga mahilig mag Pre-Order</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="socials">
+        <a href="#"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
+            alt="Facebook"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://e7.pngegg.com/pngimages/708/311/png-clipart-icon-logo-twitter-logo-twitter-logo-blue-social-media-thumbnail.png"
+            alt="Twitter"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://i.pinimg.com/736x/ff/5a/e7/ff5ae72f423c7a1a2e6daf347ff1b5e2.jpg"
+            alt="Instagram"
+        /></a>
+      </div>
+      <p>@ 2024 Kenneth Cyrus Bianzon, DCET 1-1.</p>
+    </footer>
+  </body>
+</html>
